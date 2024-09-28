@@ -1,7 +1,8 @@
 # OCR 
-'''shell
+
+```shell
 python ocr.py
-'''
+```
 This will take input from data/form images and will pereform OCR on these images.
 <br> The output will be saved in data/output as txt files.
 
