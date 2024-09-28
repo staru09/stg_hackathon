@@ -1,6 +1,5 @@
 import csv
 
-# Example OCR extracted text
 extracted_text = """
 Form for Potential Candidates
 

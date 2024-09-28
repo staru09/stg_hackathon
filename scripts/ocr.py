@@ -1,8 +1,26 @@
+import os
 from PIL import Image
 import pytesseract
 
-image_path = r'C:\Users\91745\OneDrive\Desktop\Anaconda\ResumeScreening - PreRequisites\1st_form.jpg'
-img = Image.open(image_path)
+folder_path = '/kaggle/input/all-form-images'
 
-extracted_text = pytesseract.image_to_string(img)
-extracted_text
+output_folder = '/kaggle/working/output_new/'
+
+os.makedirs(output_folder, exist_ok=True)
+
+for filename in os.listdir(folder_path):
+    if filename.endswith(('.jpg', '.png', '.jpeg', '.bmp', '.tiff')):
+        image_path = os.path.join(folder_path, filename)
+        
+        img = Image.open(image_path)
+        
+        extracted_text = pytesseract.image_to_string(img)
+        
+        output_file = os.path.join(output_folder, f"{os.path.splitext(filename)[0]}.txt")
+        
+        with open(output_file, 'w') as f_out:
+            f_out.write(extracted_text)
+        
+        print(f"Text extracted and saved to {output_file}")
+
+print("Text extraction complete for all images.")

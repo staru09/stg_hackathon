@@ -1,10 +1,13 @@
-# STG Hackathon LLM + Form Fill
+# OCR 
+'''shell
+python ocr.py
+'''
+This will take input from data/form images and will pereform OCR on these images.
+<br> The output will be saved in data/output as txt files.
 
-## Cloning
 
-```shell
-git clone <repo> --recursive
-```
+
+# LLM + Form Fill
 
 ## Llama Model
 
@@ -13,6 +16,8 @@ https://huggingface.co/hugging-quants/Llama-3.2-3B-Instruct-Q4_K_M-GGUF?show_fil
 ## Running inference
 
 install (llama-cpp-python)[https://github.com/abetlen/llama-cpp-python]
+
+This will convert our text extracted from ocr into json files which can be used to fill microsoft forms.
 
 ```shell
 python infer.py
