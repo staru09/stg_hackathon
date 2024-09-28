@@ -34,3 +34,12 @@ Node.js is required
 npm i
 node form_fill.js
 ```
+
+
+## Audit Report Generation
+
+From the json data we tried to create a new csv file as our audit report 
+
+```shell
+python audit.py
+```
