@@ -2,7 +2,6 @@ from llama_cpp import Llama
 import json
 import glob
  
-# Initialize the Llama model
 llm = Llama(
     model_path="./llama-3.2-3b-instruct-q4_k_m.gguf",
     n_gpu_layers=-1,  # Uncomment to use GPU acceleration
@@ -10,11 +9,10 @@ llm = Llama(
     n_ctx=2048,       # Uncomment to increase the context window
 )
  
-# Read the input CSV file
-raw_file = "./input/PEC Hackathon-1_merged_page-0001.txt"
+raw_file = r"C:\Users\91745\OneDrive\Desktop\stg_hackathon\data\output\PEC Hackathon-1_merged_page-0001.txt"
 input_data = []
 
-for raw_file in glob.glob("./input/PEC Hackathon-1*"):
+for raw_file in glob.glob(r"C:\Users\91745\OneDrive\Desktop\stg_hackathon\data\output\PEC Hackathon-1*"):
     with open(raw_file, 'r') as f:
         input_data.append((raw_file, f.read()))
  

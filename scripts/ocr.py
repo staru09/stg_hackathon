@@ -2,9 +2,9 @@ import os
 from PIL import Image
 import pytesseract
 
-folder_path = '/kaggle/input/all-form-images'
+folder_path = r'C:\Users\91745\OneDrive\Desktop\stg_hackathon\data\form images'
 
-output_folder = '/kaggle/working/output_new/'
+output_folder = r'C:\Users\91745\OneDrive\Desktop\stg_hackathon\data\output'
 
 os.makedirs(output_folder, exist_ok=True)
 
