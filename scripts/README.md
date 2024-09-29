@@ -1,3 +1,4 @@
+
 # OCR 
 
 ```shell
@@ -43,3 +44,11 @@ From the json data we tried to create a new csv file as our audit report
 ```shell
 python audit.py
 ```
+
+## Audit Report Sender
+
+```shell
+python send_mail.py
+```
+
+This will share the generated audit report with the HR managers.
