@@ -1,0 +1,1 @@
+{"phone": "(678) 901-2345", "location": "Boston,MA", "reporting_manager": "Robert Green", "job_title": "Marketing Specialist", "start_date": "2024-12-01", "email": "Olivia.white@email.com", "name": "OliviaWhite", "department": "Marketing"}

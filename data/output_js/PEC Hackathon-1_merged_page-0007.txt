@@ -1,0 +1,1 @@
+{"phone": "(929) 123-4567", "location": "New York City", "reporting_manager": "Emily Clark", "job_title": "Software Engineer", "start_date": "2024-10-01", "email": "J0nn-doe@example.com", "name": "JonnDog", "department": "Engineering"}

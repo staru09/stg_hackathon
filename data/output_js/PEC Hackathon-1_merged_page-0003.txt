@@ -1,0 +1,1 @@
+{"phone": "(349) 678-9012", "location": "Chicago, IL", "reporting_manager": "Karen Wilson", "job_title": "ProjectManager", "start_date": "2024-11-01", "email": "michael.brown@email.com", "name": "Michael Brown", "department": "Operations"}

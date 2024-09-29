@@ -1,0 +1,1 @@
+{"phone": "(929) 496-7890", "location": "Chicago", "reporting_manager": "James Wright", "job_title": "ProductManager", "start_date": "2024-10-05", "email": "emily.davis@example.com", "name": "Emmy Davie", "department": "Product Management"}

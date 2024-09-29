@@ -1,0 +1,1 @@
+{"phone": "(496) 789-0123", "location": "Seattle, WA", "reporting_manager": "David Clark", "job_title": "UXDesigner", "start_date": "2024-11-10", "email": "sophia.johnnson@email.com", "name": "SophiaJonnson", "department": "Design"}

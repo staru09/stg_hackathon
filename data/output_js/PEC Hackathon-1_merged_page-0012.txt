@@ -1,0 +1,1 @@
+{"phone": "(99°) 678-9012", "location": "Boston", "reporting_manager": "Mark Taylor", "job_title": "MR Specialist", "start_date": "2024-09-30", "email": "sarah.thompson@example.com", "name": "Sarah Thompson", "department": "Human Resources"}

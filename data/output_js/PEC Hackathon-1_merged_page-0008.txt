@@ -1,0 +1,1 @@
+{"phone": "(999) 234-5678", "location": "San Francisco", "reporting_manager": "David Lee", "job_title": "Marketing Manager", "start_date": "2024-11-15", "email": "jane.smith@example.com", "name": "Janesmith", "department": "Marketing"}
